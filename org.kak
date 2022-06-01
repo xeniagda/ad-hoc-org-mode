@@ -26,10 +26,10 @@ hook global WinSetOption filetype=org %{
     # }
 
     add-highlighter window/org regions
-    add-highlighter window/org/d1 region '^\*{1} ' '^(?=\*)' regex '\S' 0:rgb:f17440+bi
+    add-highlighter window/org/d1 region '^\*{1} ' '^(?=\*)' regex '\S' 0:rgb:f17440+b
     add-highlighter window/org/d2 region '^\*{2} ' '^(?=\*)' regex '\S' 0:rgb:e8eb5c+b
     add-highlighter window/org/d3 region '^\*{3} ' '^(?=\*)' regex '\S' 0:rgb:8eef5c
-    add-highlighter window/org/d4 region '^\*{4} ' '^(?=\*)' regex '\S' 0:rgb:74f3ed
+    add-highlighter window/org/d4 region '^\*{4} ' '^(?=\*)' regex '\S' 0:rgb:3f74e8
     add-highlighter window/org/d5 region '^\*{5} ' '^(?=\*)' regex '\S' 0:rgb:8663f8
     add-highlighter window/org/d6 region '^\*{6} ' '^(?=\*)' regex '\S' 0:rgb:ed76f9
 
